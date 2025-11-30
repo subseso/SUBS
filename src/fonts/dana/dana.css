@@ -1,0 +1,21 @@
+@font-face {
+  font-family: dana;
+  src: url(./normal/Dana-FaNum-Medium.eot);
+  src: url(./normal/Dana-FaNum-Medium.ttf);
+  src: url(./normal/Dana-FaNum-Medium.woff);
+  src: url(./normal/Dana-FaNum-Medium.woff2);
+}
+@font-face {
+  font-family: dana-thin;
+  src: url(./thin/Dana-FaNum-Thin.eot);
+  src: url(./thin/Dana-FaNum-Thin.ttf);
+  src: url(./thin/Dana-FaNum-Thin.woff);
+  src: url(./thin/Dana-FaNum-Thin.woff2);
+}
+@font-face {
+  font-family: dana-bold;
+  src: url(./bold/Dana-FaNum-Bold.eot);
+  src: url(./bold/Dana-FaNum-Bold.ttf);
+  src: url(./bold/Dana-FaNum-Bold.woff);
+  src: url(./bold/Dana-FaNum-Bold.woff2);
+}

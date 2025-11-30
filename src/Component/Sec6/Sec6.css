@@ -1,0 +1,153 @@
+.image {
+  width: 50%;
+  height: inherit;
+}
+.image img {
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
+}
+
+.dec-sec {
+  width: 50%;
+  height: inherit;
+  direction: rtl;
+  background-color: #0ba6df;
+  color: #ebebeb;
+}
+.text-bullet {
+  color: #ebebeb;
+}
+
+.text-dec p {
+  line-height: 30px;
+}
+
+h6 {
+  line-height: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.buttton p {
+  background-color: #ebebeb;
+  color: black;
+  transition: 300ms ease-in-out;
+}
+.buttton p:hover {
+  background-color: #0ba6df;
+  color: #ebebeb;
+  transition: 300ms ease-in-out;
+  border: 1px solid black;
+}
+
+.infinityy {
+  width: 90%;
+  display: flex;
+  gap: 10px;
+  overflow-x: hidden;
+}
+
+.auto-scroll-1 img {
+  width: 100px;
+  height: 100px;
+}
+.auto-scroll-2 img {
+  width: 100px;
+  height: 100px;
+}
+.auto-scroll-3 img {
+  width: 100px;
+  height: 100px;
+}
+/* .auto-scroll-4 img {
+  width: 100px;
+  height: 100px;
+}
+.auto-scroll-5 img {
+  width: 100px;
+  height: 100px;
+}
+.auto-scroll-6 img {
+  width: 100px;
+  height: 100px;
+}
+.auto-scroll-7 img {
+  width: 100px;
+  height: 100px;
+}
+.auto-scroll-8 img {
+  width: 100px;
+  height: 100px;
+} */
+
+/* cubic-bezier(0, -0.009, 1, 1.004) */
+.auto-scroll-1 {
+  width: 100px;
+  height: 100px;
+  left: 100%;
+  animation: toleft 30s linear;
+  animation-iteration-count: infinite;
+  animation-delay: calc((30s / 6) * (6 - 1) * -1);
+}
+.auto-scroll-2 {
+  width: 100px;
+  height: 100px;
+  left: 100%;
+  animation: toleft 30s linear;
+  animation-iteration-count: infinite;
+  animation-delay: calc((30s / 6) * (6 - 2) * -1);
+}
+.auto-scroll-3 {
+  width: 100px;
+  height: 100px;
+  left: 100%;
+  animation: toleft 30s linear;
+  animation-iteration-count: infinite;
+  animation-delay: calc((30s / 6) * (6 - 3) * -1);
+}
+.auto-scroll-4 {
+  width: 100px;
+  height: 100px;
+  left: 100%;
+  animation: toleft 30s linear;
+  animation-iteration-count: infinite;
+  animation-delay: calc((30s / 6) * (6 - 4) * -1);
+}
+.auto-scroll-5 {
+  width: 100px;
+  height: 100px;
+  left: 100%;
+  animation: toleft 30s linear;
+  animation-iteration-count: infinite;
+  animation-delay: calc((30s / 6) * (6 - 5) * -1);
+}
+.auto-scroll-6 {
+  width: 100px;
+  height: 100px;
+  left: 100%;
+  animation: toleft 30s linear;
+  animation-iteration-count: infinite;
+  animation-delay: calc((30s / 6) * (6 - 6) * -1);
+}
+.auto-scroll-7 {
+  width: 100px;
+  height: 100px;
+  left: 100%;
+  animation: toleft 30s linear;
+  animation-iteration-count: infinite;
+  animation-delay: calc((30s / 8) * (8 - 7) * -1);
+}
+.auto-scroll-8 {
+  width: 100px;
+  height: 100px;
+  left: 100%;
+  animation: toleft 30s linear;
+  animation-iteration-count: infinite;
+  animation-delay: calc((30s / 8) * (8 - 8) * -1);
+}
+@keyframes toleft {
+  to {
+    left: -100px;
+  }
+}

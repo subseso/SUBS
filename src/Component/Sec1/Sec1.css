@@ -1,0 +1,63 @@
+.sec-2 {
+  width: 100%;
+  height: 650px;
+}
+.sec-2 .dec-secc {
+  height: 15%;
+  direction: rtl;
+}
+.dec-secc .but-secc {
+  width: 10%;
+  height: 50px;
+  background-color: #ebebeb;
+  color: gray;
+}
+.but-secc:hover {
+  background-color: #ef7722;
+  color: white;
+  transition: 300ms linear;
+  border: 1px solid black;
+}
+img {
+  user-select: none;
+}
+.text-caro {
+  user-select: none;
+}
+
+.carousel {
+  width: 98%;
+  height: 85%;
+  overflow-y: hidden;
+}
+
+.carousel-item {
+  height: 90%;
+  margin-left: 20px;
+  direction: rtl;
+  transition: 10ms linear;
+  cursor: pointer;
+  position: relative;
+}
+.carousel-item img {
+  width: 100%;
+  height: 80%;
+}
+.border-item {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  border: 1px solid rgba(128, 128, 128, 0.686);
+  background-color: none;
+  opacity: 0;
+}
+
+.border-hov {
+  opacity: 1;
+  transition: 300ms ease-in-out;
+}
+.border-unhov {
+  opacity: 0 !important;
+  transition: 200ms ease-in-out;
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "رز قرمز",
+    "price": 150000,
+    "description": "رز قرمز نماد عشق و علاقه است.",
+    "image": "./Roseberry-HERO-og_8756f646_thumbnail_4096.avif",
+    "rating": 4.8
+  },
+  {
+    "id": 2,
+    "name": "لاله زرد",
+    "price": 120000,
+    "description": "لاله زرد نماد امید و دوستی است.",
+    "image": "./Kally-HERO-og_2fc387b4_thumbnail_4096.avif",
+    "rating": 4.5
+  },
+  {
+    "id": 3,
+    "name": "ارکیده سفید",
+    "price": 250000,
+    "description": "ارکیده سفید نشانه‌ای از پاکی و زیبایی است.",
+    "image": "./Luo-HERO-og_31e092c5_thumbnail_4096.avif",
+    "rating": 4.9
+  }
+]

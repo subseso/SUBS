@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Dana-FaNum';
+    src: url('Dana-FaNum-ExtraLight.eot');
+    src: url('Dana-FaNum-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('Dana-FaNum-ExtraLight.woff2') format('woff2'),
+        url('Dana-FaNum-ExtraLight.woff') format('woff'),
+        url('Dana-FaNum-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dana-FaNum';
+    src: url('Dana-FaNum-Black.eot');
+    src: url('Dana-FaNum-Black.eot?#iefix') format('embedded-opentype'),
+        url('Dana-FaNum-Black.woff2') format('woff2'),
+        url('Dana-FaNum-Black.woff') format('woff'),
+        url('Dana-FaNum-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dana-FaNum';
+    src: url('Dana-FaNum-DemiBold.eot');
+    src: url('Dana-FaNum-DemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Dana-FaNum-DemiBold.woff2') format('woff2'),
+        url('Dana-FaNum-DemiBold.woff') format('woff'),
+        url('Dana-FaNum-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dana-FaNum';
+    src: url('Dana-FaNum-ExtraBold.eot');
+    src: url('Dana-FaNum-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Dana-FaNum-ExtraBold.woff2') format('woff2'),
+        url('Dana-FaNum-ExtraBold.woff') format('woff'),
+        url('Dana-FaNum-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dana-FaNum';
+    src: url('Dana-FaNum-Bold.eot');
+    src: url('Dana-FaNum-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Dana-FaNum-Bold.woff2') format('woff2'),
+        url('Dana-FaNum-Bold.woff') format('woff'),
+        url('Dana-FaNum-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dana-FaNum';
+    src: url('Dana-FaNum-Regular.eot');
+    src: url('Dana-FaNum-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Dana-FaNum-Regular.woff2') format('woff2'),
+        url('Dana-FaNum-Regular.woff') format('woff'),
+        url('Dana-FaNum-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dana-FaNum';
+    src: url('Dana-FaNum-Thin.eot');
+    src: url('Dana-FaNum-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Dana-FaNum-Thin.woff2') format('woff2'),
+        url('Dana-FaNum-Thin.woff') format('woff'),
+        url('Dana-FaNum-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dana-FaNum';
+    src: url('Dana-FaNum-Light.eot');
+    src: url('Dana-FaNum-Light.eot?#iefix') format('embedded-opentype'),
+        url('Dana-FaNum-Light.woff2') format('woff2'),
+        url('Dana-FaNum-Light.woff') format('woff'),
+        url('Dana-FaNum-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dana-FaNum';
+    src: url('Dana-FaNum-UltraBold.eot');
+    src: url('Dana-FaNum-UltraBold.eot?#iefix') format('embedded-opentype'),
+        url('Dana-FaNum-UltraBold.woff2') format('woff2'),
+        url('Dana-FaNum-UltraBold.woff') format('woff'),
+        url('Dana-FaNum-UltraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dana-FaNum';
+    src: url('Dana-FaNum-Medium.eot');
+    src: url('Dana-FaNum-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Dana-FaNum-Medium.woff2') format('woff2'),
+        url('Dana-FaNum-Medium.woff') format('woff'),
+        url('Dana-FaNum-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

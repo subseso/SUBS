@@ -1,0 +1,130 @@
+.head::scroll-button(*) {
+  display: none;
+}
+
+.menuuu {
+  direction: rtl;
+  font-family: yekan;
+}
+
+ul li a div {
+  display: none;
+  width: inherit;
+  direction: rtl;
+}
+ul {
+  width: inherit;
+  height: 50px;
+  margin-top: 150px;
+}
+li {
+  height: inherit;
+}
+.wrapperr {
+  width: 1450px;
+  height: 1450px;
+  background-color: black;
+  opacity: 0.3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* z-index: 1; */
+}
+.submenu {
+  width: 450px;
+  height: 300px;
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  background-color: white;
+  animation: fadefromtop 300ms cubic-bezier(0.86, 0, 0.14, 1);
+}
+.hrline {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  margin-top: 50px;
+}
+@keyframes fadefromtop {
+  from {
+    top: -100%;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.menu-line-active1 {
+  display: flex;
+  animation-name: menu-active-line;
+  animation-timing-function: cubic-bezier(0.85, 0.09, 0.15, 0.91);
+  animation-duration: 300ms;
+  transform-origin: right;
+  animation-iteration-count: 1;
+  background-color: black;
+}
+.menu-line-not1 {
+  animation-name: menu-deactive-line;
+  animation-timing-function: cubic-bezier(0.85, 0.09, 0.15, 0.91);
+  animation-duration: 300ms;
+  animation-iteration-count: 0.5;
+  transform-origin: left;
+}
+.hide {
+  animation: 300ms cubic-bezier(0.66, 0, 0.34, 1) 0s menudeload;
+  transform: translateY(-100%);
+}
+.show {
+  animation: 300ms cubic-bezier(0.66, 0, 0.34, 1) 0s 1 menuload;
+  transform: translateY(0);
+}
+.bgg {
+  background-color: white;
+  border-bottom: 1px solid black;
+  transition: 300ms ease-in-out;
+}
+.nobg {
+  background-color: transparent;
+  border-bottom: none;
+  transition: 300ms ease-in-out;
+}
+@keyframes menuload {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes menudeload {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100%);
+  }
+}
+@keyframes menu-deactive-line {
+  0% {
+    transform: scaleX(1);
+    display: flex;
+  }
+  50% {
+    transform: scaleX(0);
+  }
+  100% {
+    display: none !important;
+  }
+}
+
+@keyframes menu-active-line {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}

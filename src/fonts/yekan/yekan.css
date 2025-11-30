@@ -1,0 +1,22 @@
+@font-face {
+  font-family: yekan;
+  src: url(./normal/YekanBakh-Regular.eot);
+  src: url(./normal/YekanBakh-Regular.ttf);
+  src: url(./normal/YekanBakh-Regular.woff);
+  src: url(./normal/YekanBakh-Regular.woff2);
+}
+@font-face {
+  font-family: yekan-bold;
+  src: url(./bold/YekanBakh-Bold.eot);
+  src: url(./bold/YekanBakh-Bold.ttf);
+  src: url(./bold/YekanBakh-Bold.woff);
+  src: url(./bold/YekanBakh-Bold.woff2);
+}
+
+@font-face {
+  font-family: yekan-thin;
+  src: url(./thin/YekanBakh-Thin.eot);
+  src: url(./thin/YekanBakh-Thin.ttf);
+  src: url(./thin/YekanBakh-Thin.woff);
+  src: url(./thin/YekanBakh-Thin.woff2);
+}

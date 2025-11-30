@@ -1,0 +1,58 @@
+.sec-3 {
+  width: 100%;
+  animation: 1s cubic-bezier(0.66, 0, 0.34, 1) 0s 1 secload;
+  background-color: #ebebeb;
+}
+.sec-3 .sec-pic-3 {
+  width: 50%;
+  height: inherit;
+  background-color: green;
+}
+.sec-pic-3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.sec-3 .sec-dec-3 {
+  width: 50%;
+  height: inherit;
+}
+.sec-dec-3 h3 {
+  user-select: none;
+}
+.sec-dec-3 table tr {
+  border: 1px white solid;
+  transition: 300ms linear;
+  user-select: none;
+}
+.sec-but-3 {
+  border: 1px solid black;
+  transition: 300ms linear;
+  cursor: pointer;
+  user-select: none;
+}
+.sec-but-3:hover {
+  background-color: gray;
+  border: 2px solid white;
+  color: white;
+}
+span {
+  user-select: none;
+}
+@keyframes secload {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+hr {
+  width: 98%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  background-color: gray;
+}

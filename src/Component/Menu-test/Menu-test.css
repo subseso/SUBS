@@ -1,0 +1,71 @@
+.logo a img {
+  width: 130px;
+  height: 50px;
+  cursor: pointer;
+}
+.menu {
+  direction: rtl;
+  font-family: yekan;
+  color: black;
+}
+ul {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+}
+ul li {
+  width: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  cursor: pointer;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+ul li a div {
+  display: none;
+  width: auto;
+  height: 1px;
+  background-color: black;
+  direction: ltr;
+}
+/* 
+  animation-name: menu-deactive-line;
+  animation-timing-function: cubic-bezier(0.85, 0.09, 0.15, 0.91);
+  animation-duration: 500ms;
+  animation-iteration-count: 0.5;
+  transform-origin: left;
+ */
+/* ul li:hover a div {
+  display: flex;
+  animation-name: menu-active-line;
+  animation-timing-function: cubic-bezier(0.85, 0.09, 0.15, 0.91);
+  animation-duration: 500ms;
+  transform-origin: right;
+  animation-iteration-count: 1;
+  background-color: #808080;
+} */
+
+@keyframes menu-deactive-line {
+  0% {
+    transform: scaleX(1);
+    display: flex;
+  }
+  50% {
+    transform: scaleX(0);
+  }
+  100% {
+    display: none !important;
+  }
+}
+
+@keyframes menu-active-line {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}

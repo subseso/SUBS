@@ -1,0 +1,43 @@
+.diff-div {
+  width: 100%;
+  height: 750px;
+  display: flex;
+  align-items: center;
+  background-color: aqua;
+  z-index: 100;
+  direction: rtl;
+  position: relative;
+}
+.diff {
+  width: 50%;
+  height: 500px;
+  background-color: green;
+  position: relative;
+}
+#image-1 {
+  width: auto;
+  height: inherit;
+  position: absolute;
+  border-radius: 25px;
+  object-fit: cover;
+  top: 0;
+  z-index: 100;
+}
+#image-2 {
+  width: auto;
+  height: inherit;
+  position: absolute;
+  border-radius: 25px;
+  object-fit: cover;
+  top: 0;
+  z-index: 99;
+}
+div.diff-line {
+  z-index: 200;
+  height: inherit;
+}
+
+.sec-1 {
+  width: 50%;
+  direction: rtl;
+}
