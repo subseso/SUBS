@@ -1,5 +1,6 @@
 {
   "name": "myapp1",
+  "homepage": "https://subseso.github.io/test-site",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -45,6 +46,7 @@
     ]
   },
   "devDependencies": {
-    "daisyui": "^5.0.50"
+    "daisyui": "^5.0.50",
+    "gh-pages": "^6.3.0"
   }
 }

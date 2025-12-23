@@ -51,7 +51,7 @@ const Menu = () => {
   return (
     <>
       <div
-        className={`head w-full fixed flex top-0 z-200 ${
+        className={`head dark:bg-white w-full fixed flex top-0 z-200 ${
           scrollDirection === "down" ? "hide" : "show"
         } ${isNearTop ? "bgg" : "nobg"}`}
         ref={boxRef}
@@ -156,11 +156,7 @@ const Menu = () => {
                               }`}
                             ></div>
                           </a>
-                          <div className="submenu z-3">
-                            <div className="hrline"></div>
-                          </div>
                         </li>
-                        <div className="wrapperr z-1"></div>
                       </>
                     );
                   }
@@ -186,11 +182,7 @@ const Menu = () => {
                               }`}
                             ></div>
                           </a>
-                          <div className="submenu z-3">
-                            <div className="hrline"></div>
-                          </div>
                         </li>
-                        <div className="wrapperr z-1"></div>
                       </>
                     );
                   }

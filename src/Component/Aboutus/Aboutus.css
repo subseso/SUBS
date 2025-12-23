@@ -1,0 +1,36 @@
+.wrap-1 {
+  width: 100%;
+  height: 800px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.wrap-1 .cont {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ebebeb;
+}
+.cont h1 {
+  font-size: 35px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: dana-thin;
+  color: gray;
+}
+.cont span {
+  width: 80%;
+  text-align: center;
+  line-height: 30px;
+  font-family: dana-thin;
+  margin-top: 20px;
+  color: gray;
+}
+.cont img {
+  width: 550px;
+  height: 600px;
+}
